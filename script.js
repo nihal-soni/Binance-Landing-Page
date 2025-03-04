@@ -5,13 +5,13 @@ document.addEventListener("DOMContentLoaded", () => {
     // Toggle dropdown on click
     servicesBtn.addEventListener("click", (event) => {
         event.preventDefault();
-        dropdownMenu.style.display = dropdownMenu.style.display === "block" ? "none" : "block";
+        dropdownMenu.classList.toggle("show");
     });
 
     // Close dropdown when clicking outside
     document.addEventListener("click", (event) => {
         if (!servicesBtn.contains(event.target) && !dropdownMenu.contains(event.target)) {
-            dropdownMenu.style.display = "none";
+            dropdownMenu.classList.remove("show");
         }
     });
 });

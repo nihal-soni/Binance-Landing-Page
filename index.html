@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Binance Navbar</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -16,53 +16,63 @@
             alt="binance-logo"
         /></a>
         <ul>
-          <li><a href="#">Buy crypto</a></li>
-          <li><a href="#"></a>Markets</li>
-          <li><a href="#">Trades</a></li>
+          <li><a href="#">Buy Crypto</a></li>
+          <li><a href="#">Markets</a></li>
           <li class="dropdown">
-              <a href="#" id="services-btn">Basics▼</a>
-              <div class="dropdown-content" id="dropdown-menu">
-                  <div class="dropdown-sections">
-                      <!-- Basic Services (Left Side) -->
-                      <div class="dropdown-section">
-                          <h4>Basic</h4>
-                          <a href="#">Spot</a>
-                          <p></p>
-                          <a href="#">Margin</a>
-                          <p></p>
-                          <a href="#">P2P</a>
-                          <p></p>
-                          <a href="#">Convert and Block trades</a>
-                      </div>
-                      <!-- Advanced Services (Right Side) -->
-                      <div class="dropdown-section">
-                          <h4>Advanced</h4>
-                          <a href="#">Trading bots</a>
-                          <a href="#">Copy Trading</a>
-                          <a href="#">APIs</a>
-                      </div>
-                  </div>
+            <a href="#" id="services-btn">Trades ▼</a>
+            <div class="dropdown-content" id="dropdown-menu">
+              <div class="dropdown-sections">
+                <!-- Basic (Left Side) -->
+                <div class="dropdown-section">
+                  <h4>Basic</h4>
+                  <a href="#">Spot</a>
+                  <a href="#">Margin</a>
+                  <a href="#">P2P</a>
+                  <a href="#">Convert & Block Trades</a>
+                </div>
+                <!-- Advanced (Right Side) -->
+                <div class="dropdown-section">
+                  <h4>Advanced</h4>
+                  <a href="#">Trading Bots</a>
+                  <a href="#">Copy Trading</a>
+                  <a href="#">APIs</a>
+                </div>
               </div>
+            </div>
           </li>
-          <li><a href="#">About</a></li>
-          
+          <li class="dropdown">
+            <a href="#" id="services-btn">Futures ▼</a>
+            <div class="dropdown-content" id="dropdown-menu">
+              <div class="dropdown-sections">
+                <!-- Basic (Left Side) -->
+                <div class="dropdown-section">
+                  <h4>Basic</h4>
+                  <a href="#">Spot</a>
+                  <a href="#">Margin</a>
+                  <a href="#">P2P</a>
+                  <a href="#">Convert & Block Trades</a>
+                </div>
           <li><a href="#">Contact</a></li>
-      </ul>
-        
+        </ul>
+      </div>
+
+      <!-- Right Navigation -->
       <div class="right-nav">
-        <button>login</button>
-        <button>sign up</button>
+        <button>Login</button>
+        <button>Sign Up</button>
       </div>
     </div>
-    </div>
+
     <div class="page1">
-      <marquee behavior="" direction="">
-        <p style="color: antiquewhite">
+      <marquee behavior="scroll" direction="left">
+        <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
           obcaecati ea magnam illum earum cupiditate maxime facilis id. Non,
           vero tenetur. Mollitia laborum fugit ipsa debitis ea enim cum ipsum?
         </p>
       </marquee>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
